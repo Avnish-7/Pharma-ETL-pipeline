@@ -1,0 +1,43 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.ext
+
+# Database generated files
+data/db/*.db
+data/db/*.sqlite
+data/db/*.sqlite3
+*.db
+*.sqlite
+
+# Data files (Exclude raw data if generated dynamically)
+data/raw/*.csv
+
+# Streamlit config / cache
+.streamlit/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Zip files
+*.zip
